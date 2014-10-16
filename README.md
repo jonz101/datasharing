@@ -1,7 +1,7 @@
-How to share data with a statistician
+How to share data with a statisticians
 ===========
 
-This is a guide for anyone who needs to share data with a statistician. The target audiences I have in mind are:
+###This is a guide for anyone who needs to share data with a statistician. The target audiences I have in mind are:
 
 * Scientific collaborators who need statisticians to analyze data for them
 * Students or postdocs in scientific disciplines looking for consulting advice
@@ -23,7 +23,7 @@ have to work through all the pre-processing steps first.
 What you should deliver to the statistician
 ====================
 
-For maximum speed in the analysis this is the information you should pass to a statistician:
+###For maximum speed in the analysis this is the information you should pass to a statistician:
 
 1. The raw data.
 2. A [tidy data set](http://vita.had.co.nz/papers/tidy-data.pdf) 
@@ -33,7 +33,7 @@ For maximum speed in the analysis this is the information you should pass to a s
 Let's look at each part of the data package you will transfer. 
 
 
-### The raw data
+## The raw data
 
 It is critical that you include the rawest form of the data that you have access to. Here are some examples of the
 raw form of data:
@@ -54,7 +54,7 @@ If you did any manipulation of the data at all it is not the raw form of the dat
 as raw data is a very common way to slow down the analysis process, since the analyst will often have to do a
 forensic study of your data to figure out why the raw data looks weird. 
 
-### The tidy data set
+## The tidy data set
 
 The general principles of tidy data are laid out by [Hadley Wickham](http://had.co.nz/) in [this paper](http://vita.had.co.nz/papers/tidy-data.pdf)
 and [this video](http://vimeo.com/33727555). The paper and the video are both focused on the [R](http://www.r-project.org/) package, which you
@@ -85,7 +85,7 @@ should not have multiple worksheets, no macros should be applied to the data, an
 Alternatively share the data in a [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) or [TAB-delimited](http://en.wikipedia.org/wiki/Tab-separated_values) text file.
 
 
-### The code book
+## The code book
 
 For almost any data set, the measurements you calculate will need to be described in more detail than you will sneak
 into the spreadsheet. The code book contains this information. At minimum it should contain:
@@ -105,7 +105,7 @@ A common format for this document is a Word file. There should be a section call
 description of how you collected the data. There is a section called "Code book" that describes each variable and its
 units. 
 
-### How to code variables
+## How to code variables
 
 When you put variables into a spreadsheet there are several main categories you will run into depending on their [data type](http://en.wikipedia.org/wiki/Statistical_data_type):
 
